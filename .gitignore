@@ -15,8 +15,7 @@
 *.iws
 .idea/
 
-# Visual Studio Code related
-.vscode/
+/lib/map_box_token.dart
 
 # Flutter/Dart/Pub related
 **/doc/api/

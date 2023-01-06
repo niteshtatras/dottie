@@ -7,6 +7,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:dottie_inspector/connection_mixin.dart';
 import 'package:dottie_inspector/database/database_helper.dart';
 import 'package:dottie_inspector/inspectionPreferences/inspection_preferences.dart';
+import 'package:dottie_inspector/map_box_token.dart';
 import 'package:dottie_inspector/model/inspection_data_model.dart';
 import 'package:dottie_inspector/pages/menu/drawer_page.dart';
 import 'package:dottie_inspector/preferences/app_shared_preferences.dart';
@@ -524,7 +525,7 @@ class _InspectionLocationPageState extends State<InspectionLocationPage> with My
   void getAddress(myState) async {
     FocusScope.of(context).requestFocus(FocusNode());
     var response = await request.getLocationRequest(
-        "https://api.mapbox.com/geocoding/v5/mapbox.places/${_currentPosition.longitude},${_currentPosition.latitude}.json?access_token=${HelperClass.MAP_ID}"
+        "https://api.mapbox.com/geocoding/v5/mapbox.places/${_currentPosition.longitude},${_currentPosition.latitude}.json?access_token=${Token.MAP_ID}"
     );
 
     isLocationLoaded = false;

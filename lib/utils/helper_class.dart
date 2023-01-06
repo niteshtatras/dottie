@@ -32,8 +32,6 @@ import 'custom_toast.dart';
 
 class HelperClass {
   static const String INSPECTION_ID = "1";
-  static const String MAP_ID =
-      "sk.eyJ1IjoiaW5zcGVjdG9yZG90dGllIiwiYSI6ImNsMTI4NzhhdzAwb2IzY210b3c3aWJudmwifQ.HSfuYo00hwQjYcJliVq8Mg";
 
   static const double ELEVATION = 0.0;
   static const double ELEVATION_1 = 1.0;
