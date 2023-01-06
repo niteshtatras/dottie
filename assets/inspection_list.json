@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Pool observations",
+      "image": "assets/ic_pool.png"
+    },
+    {
+      "id": "2",
+      "name": "Spa observations",
+      "image": "assets/ic_spa.png"
+    },
+    {
+      "id": "3",
+      "name": "Water feature observations",
+      "image": "assets/ic_fountain.png"
+    },
+    {
+      "id": "4",
+      "name": "Water pump observations",
+      "image": "assets/pool/ic_fan.png"
+    },
+    {
+      "id": "5",
+      "name": "Filter observations",
+      "image": "assets/ic_filter.png"
+    },
+    {
+      "id": "6",
+      "name": "Heater observations",
+      "image": "assets/ic_heater.png"
+    },
+    {
+      "id": "7",
+      "name": "Automation system observations",
+      "image": "assets/ic_automation.png"
+    },
+    {
+      "id": "8",
+      "name": "Sanitation system observations",
+      "image": "assets/ic_sanitation.png"
+    },
+    {
+      "id": "12",
+      "name": "Safety observations",
+      "image": "assets/pool/ic_warning.png"
+    },
+    {
+      "id": "13",
+      "name": "Maintenance recommendations",
+        "image": "assets/pool/ic_wrench.png"
+    },
+    {
+      "id": "14",
+      "name": "General proposal",
+      "image": "assets/ic_proposal.png"
+    }
+  ]
+}

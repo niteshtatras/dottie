@@ -1,0 +1,34 @@
+[
+  {
+    "key": "HH:mm:ss",
+    "value": "[00-23]:MM:SS"
+  },
+  {
+    "key": "HH:mm",
+    "value": "[00-23]:MM"
+  },
+  {
+    "key": "H:mm",
+    "value": "[0-23]:MM"
+  },
+  {
+    "key": "H:mm:ss",
+    "value": "[0-23]:MM:SS"
+  },
+  {
+    "key": "hh:mm:ss b",
+    "value": "[01-12]:MM:SS XM"
+  },
+  {
+    "key": "hh:mm b",
+    "value": "[01-12]:MM XM"
+  },
+  {
+    "key": "h:mm b",
+    "value": "[1-12]:MM XM"
+  },
+  {
+    "key": "h:mm:ss b",
+    "value": "[1-12]:MM:SS XM"
+  }
+]

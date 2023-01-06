@@ -1,0 +1,185 @@
+{
+  "simplelistid": 40,
+  "svgicon": null,
+  "lft": 92,
+  "rgt": 115,
+  "label": {
+    "en": "Automation System"
+  },
+  "children": [
+    {
+      "simplelistid": 155,
+      "svgicon": null,
+      "lft": 93,
+      "rgt": 104,
+      "label": {
+        "en": "Pentair"
+      },
+      "children": [
+        {
+          "simplelistid": 156,
+          "svgicon": null,
+          "lft": 94,
+          "rgt": 95,
+          "label": {
+            "en": "IntelliTouch"
+          },
+          "children": [
+            {
+              "simplelistid": 554,
+              "svgicon": null,
+              "lft": 870,
+              "rgt": 871,
+              "label": {
+                "en": "Rajesh"
+              },
+              "children": []
+            },
+            {
+              "simplelistid": 555,
+              "svgicon": null,
+              "lft": 872,
+              "rgt": 873,
+              "label": {
+                "en": "Vishal"
+              },
+              "children": [
+                {
+                  "simplelistid": 554,
+                  "svgicon": null,
+                  "lft": 870,
+                  "rgt": 871,
+                  "label": {
+                    "en": "Rajesh"
+                  },
+                  "children": []
+                },
+                {
+                  "simplelistid": 555,
+                  "svgicon": null,
+                  "lft": 872,
+                  "rgt": 873,
+                  "label": {
+                    "en": "Vishal"
+                  },
+                  "children": []
+                },
+                {
+                  "simplelistid": 556,
+                  "svgicon": null,
+                  "lft": 874,
+                  "rgt": 875,
+                  "label": {
+                    "en": "Rakesh"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "simplelistid": 556,
+              "svgicon": null,
+              "lft": 874,
+              "rgt": 875,
+              "label": {
+                "en": "Rakesh"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "simplelistid": 157,
+          "svgicon": null,
+          "lft": 96,
+          "rgt": 97,
+          "label": {
+            "en": "EasyTouch"
+          },
+          "children": []
+        },
+        {
+          "simplelistid": 158,
+          "svgicon": null,
+          "lft": 98,
+          "rgt": 99,
+          "label": {
+            "en": "EasyTouch Lite"
+          },
+          "children": []
+        },
+        {
+          "simplelistid": 159,
+          "svgicon": null,
+          "lft": 100,
+          "rgt": 101,
+          "label": {
+            "en": "IntelliCenter"
+          },
+          "children": []
+        },
+        {
+          "simplelistid": 160,
+          "svgicon": null,
+          "lft": 102,
+          "rgt": 103,
+          "label": {
+            "en": "IntelliConnect"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "simplelistid": 161,
+      "svgicon": null,
+      "lft": 105,
+      "rgt": 106,
+      "label": {
+        "en": "Jandy"
+      },
+      "children": []
+    },
+    {
+      "simplelistid": 164,
+      "svgicon": null,
+      "lft": 107,
+      "rgt": 112,
+      "label": {
+        "en": "Hayward"
+      },
+      "children": [
+        {
+          "simplelistid": 165,
+          "svgicon": null,
+          "lft": 108,
+          "rgt": 109,
+          "label": {
+            "en": "OmniLogic"
+          },
+          "children": []
+        },
+        {
+          "simplelistid": 166,
+          "svgicon": null,
+          "lft": 110,
+          "rgt": 111,
+          "label": {
+            "en": "ProLogic"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "simplelistid": 386,
+      "svgicon": null,
+      "lft": 113,
+      "rgt": 114,
+      "label": {
+        "en": "Other"
+      },
+      "children": []
+    }
+  ]
+}

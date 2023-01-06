@@ -1,0 +1,94 @@
+[
+  {
+    "key": "MM/dd/y",
+    "value": "MM/DD/YY"
+  },
+  {
+    "key": "dd/MM/y",
+    "value": "DD/MM/YY"
+  },
+  {
+    "key": "y/MM/dd",
+    "value": "YY/MM/DD"
+  },
+  {
+    "key": "MMMM d, y",
+    "value": "Month D, Yr"
+  },
+  {
+    "key": "M/d/y",
+    "value": "M/D/YY"
+  },
+  {
+    "key": "d/M/y",
+    "value": "D/M/YY"
+  },
+  {
+    "key": "y/M/d",
+    "value": "YY/M/D"
+  },
+  {
+    "key": "MMddyyyy",
+    "value": "MMDDYY"
+  },
+  {
+    "key": "ddMMyyyy",
+    "value": "DDMMYY"
+  },
+  {
+    "key": "yyyyMMdd",
+    "value": "YYMMDD"
+  },
+  {
+    "key": "MMMddyyyy",
+    "value": "MonDDYY"
+  },
+  {
+    "key": "ddMMMyyyy",
+    "value": "DDMonYY"
+  },
+  {
+    "key": "yyyyMMMdd",
+    "value": "YYMonDD"
+  },
+  {
+    "key": "D/y",
+    "value": "day/YY"
+  },
+  {
+    "key": "y/D",
+    "value": "YY/day"
+  },
+  {
+    "key": "d MMMM, y",
+    "value": "D Month, Yr"
+  },
+  {
+    "key": "y, MMMM d",
+    "value": "Yr, Month D"
+  },
+  {
+    "key": "MMM d, y",
+    "value": "Mon DD, YYYY"
+  },
+  {
+    "key": "d MMM, y",
+    "value": "DD-Mon-YYYY"
+  },
+  {
+    "key": "y MMM d",
+    "value": "YYYYY-Mon-DD"
+  },
+  {
+    "key": "MMM dd, y",
+    "value": "Mon DD, YYYY"
+  },
+  {
+    "key": "dd MMM, y",
+    "value": "DD Mon, YYYY"
+  },
+  {
+    "key": "y, MMM dd",
+    "value": "YYYY, Mon DD"
+  }
+]

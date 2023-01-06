@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "inspector-dottie",
+    "dev": "dottie-inspector"
+  }
+}

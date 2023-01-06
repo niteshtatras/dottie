@@ -1,0 +1,207 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def keystorePropertiesFile = rootProject.file("key.properties")
+def keystoreProperties = new Properties()
+def configured = true
+
+try {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+} catch (IOException e) {
+    configured = false
+    logger.error('Release signing information not found.')
+}
+
+project.ext {
+    // TODO(YOU): Create release keys and a `keystore.properties` file. See
+    // `example/README.md` for more info and `keystore.example.properties` for an
+    // example.
+    APP_ID = configured ? keystoreProperties['appId'] : "12190d9893f14d4a89535db3d1b22bf9"
+    KEYSTORE_STORE_FILE = configured ? rootProject.file(keystoreProperties['storeFile']) : null
+    KEYSTORE_STORE_PASSWORD = keystoreProperties['storePassword']
+    KEYSTORE_KEY_ALIAS = keystoreProperties['keyAlias']
+    KEYSTORE_KEY_PASSWORD = keystoreProperties['keyPassword']
+    VERSION_CODE = configured ? keystoreProperties['versionCode'].toInteger() : 1
+    VERSION_NAME = configured ? keystoreProperties['versionName'] : "0.0.1"
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.0"
+    ndkVersion "23.1.7779620"
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            force 'androidx.core:core-ktx:1.6.0'
+        }
+    }
+
+    flavorDimensions "app"
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.dottie_inspector"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode VERSION_CODE
+        versionName VERSION_NAME
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        dev {
+//            def keystorePropertiesFile = rootProject.file("key.properties")
+//            def keystoreProperties = new Properties()
+//            if (keystorePropertiesFile.exists()) {
+//                keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+//            }
+
+//            keyAlias keystoreProperties['keyAlias']
+//            keyPassword keystoreProperties['keyPassword']
+//            storeFile file(keystoreProperties['storeFile'])
+//            storePassword keystoreProperties['storePassword']
+
+//            if (configured) {
+//                signingConfig signingConfigs.release
+//            } else {
+//                signingConfig signingConfigs.debug
+//            }
+            storeFile project.KEYSTORE_STORE_FILE
+            storePassword project.KEYSTORE_STORE_PASSWORD
+            keyAlias project.KEYSTORE_KEY_ALIAS
+            keyPassword project.KEYSTORE_KEY_PASSWORD
+        }
+
+        prod {
+//            def ProdkeystorePropertiesFile = rootProject.file("key.properties")
+//            def ProdkeystoreProperties = new Properties()
+//            if (ProdkeystorePropertiesFile.exists()) {
+//                ProdkeystoreProperties.load(new FileInputStream(ProdkeystorePropertiesFile))
+//            }
+//
+//            keyAlias ProdkeystoreProperties['keyAlias']
+//            keyPassword ProdkeystoreProperties['keyPassword']
+//            storeFile file(ProdkeystoreProperties['storeFile'])
+//            storePassword ProdkeystoreProperties['storePassword']
+
+//            if (configured) {
+//                signingConfig signingConfigs.release
+//            } else {
+//                signingConfig signingConfigs.debug
+//            }
+            storeFile project.KEYSTORE_STORE_FILE
+            storePassword project.KEYSTORE_STORE_PASSWORD
+            keyAlias project.KEYSTORE_KEY_ALIAS
+            keyPassword project.KEYSTORE_KEY_PASSWORD
+        }
+    }
+
+    productFlavors {
+        dev {
+            dimension "app"
+            applicationIdSuffix ".dev"
+        }
+
+        prod {
+            dimension "app"
+        }
+    }
+
+//    buildTypes {
+//        release {
+//            // TODO: Add your own signing config for the release build.
+//            // Signing with the debug keys for now, so `flutter run --release` works.
+////            signingConfig signingConfigs.debug
+//            debuggable true
+//            productFlavors.dev.signingConfig signingConfigs.dev
+//            productFlavors.prod.signingConfig signingConfigs.prod
+//        }
+//    }
+
+
+    buildTypes {
+        debug{
+            if (configured) {
+                signingConfig signingConfigs.prod
+            } else {
+                signingConfig signingConfigs.debug
+            }
+        }
+
+        release{
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            ndk {
+                debugSymbolLevel 'FULL'
+            }
+            if (configured) {
+                signingConfig signingConfigs.prod
+            } else {
+                signingConfig signingConfigs.debug
+            }
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.firebase:firebase-dynamic-links:19.1.0'
+    implementation 'androidx.core:core-ktx:1.7.0-alpha01'
+    implementation 'com.android.billingclient:billing:3.0.2'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:29.1.0')
+
+    // Declare the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // For Java
+    implementation 'androidx.work:work-runtime:2.7.1'
+
+    // For Kotlin
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'

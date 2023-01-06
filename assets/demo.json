@@ -1,0 +1,44 @@
+[
+  {
+    "equipment": "Water Pump 1",
+    "icon": "assets/pool/ic_fan.png",
+    "body": [
+      {
+        "body": "Pool",
+        "icon": "assets/ic_pool.png",
+        "status": 0
+      },
+      {
+        "body": "Spa",
+        "icon": "assets/ic_spa.png",
+        "status": 0
+      },
+      {
+        "body": "Water Feature 1",
+        "icon": "assets/ic_fountain.png",
+        "status": 0
+      }
+    ]
+  },
+  {
+    "equipment": "Water Filter 1",
+    "icon": "assets/pool/ic_filter.png",
+    "body": [
+      {
+        "body": "Pool",
+        "icon": "assets/ic_pool.png",
+        "status": 0
+      },
+      {
+        "body": "Spa",
+        "icon": "assets/ic_spa.png",
+        "status": 0
+      },
+      {
+        "body": "Water Feature 1",
+        "icon": "assets/ic_fountain.png",
+        "status": 0
+      }
+    ]
+  }
+]

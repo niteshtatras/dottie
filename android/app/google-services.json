@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "311722230009",
+    "project_id": "inspector-dottie-ai",
+    "storage_bucket": "inspector-dottie-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311722230009:android:76119cada563206d832228",
+        "android_client_info": {
+          "package_name": "com.dottie_inspector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311722230009-teu2al49pjvf4nfj91u5ca8860533ndp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTtFCaDiuF9Ye_W2bSKOj0dRc7aIpltrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311722230009-teu2al49pjvf4nfj91u5ca8860533ndp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

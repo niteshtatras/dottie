@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Pool",
+      "image": "assets/ic_pool.png"
+    },
+    {
+      "id": "2",
+      "name": "Spa",
+      "image": "assets/ic_spa.png"
+    },
+    {
+      "id": "3",
+      "name": "Water feature",
+      "image": "assets/ic_fountain.png"
+    },
+    {
+      "id": "4",
+      "name": "Water pump",
+      "image": "assets/pool/ic_fan.png"
+    },
+    {
+      "id": "5",
+      "name": "Filter",
+      "image": "assets/ic_filter.png"
+    },
+    {
+      "id": "6",
+      "name": "Heater",
+      "image": "assets/ic_heater.png"
+    },
+    {
+      "id": "7",
+      "name": "Automation system",
+      "image": "assets/ic_automation.png"
+    },
+    {
+      "id": "8",
+      "name": "Sanitation system",
+      "image": "assets/ic_sanitation.png"
+    },
+    {
+      "id": "9",
+      "name": "Valves",
+      "image": "assets/pool/ic_gauge.png"
+    },
+    {
+      "id": "10",
+      "name": "Bonding",
+      "image": "assets/ic_bonding.png"
+    },
+    {
+      "id": "11",
+      "name": "GFCI",
+      "image": "assets/pool/ic_socket.png"
+    },
+    {
+      "id": "12",
+      "name": "Safety",
+      "image": "assets/pool/ic_warning.png"
+    },
+    {
+      "id": "13",
+      "name": "Maintenance",
+      "image": "assets/pool/ic_wrench.png"
+    },
+    {
+      "id": "14",
+      "name": "General proposal",
+      "image": "assets/ic_proposal.png"
+    }
+  ]
+}

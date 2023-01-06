@@ -1,0 +1,454 @@
+{
+  "status": "success/failure",
+  "message": "fetch successfully",
+  "data": [
+    {
+      "key": "A",
+      "values": [
+        {
+          "name" : "Adam",
+          "email" : "adam@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Agustin",
+          "email" : "agustin@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Aiden",
+          "email" : "aiden@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "B",
+      "values": [
+        {
+          "name" : "Billy",
+          "email" : "billy@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Bowen",
+          "email" : "bowen@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Braden",
+          "email" : "braden@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Brandon",
+          "email" : "brandon@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "C",
+      "values": [
+        {
+          "name" : "Cairo",
+          "email" : "cairo@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "D",
+      "values": [
+        {
+          "name" : "Danny",
+          "email" : "danny@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Dayton",
+          "email" : "dayton@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "E",
+      "values": [
+        {
+          "name" : "Edward",
+          "email" : "edward@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Elliot",
+          "email" : "elliot@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Emilio",
+          "email" : "emilio@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Ervin",
+          "email" : "ervin@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Evan",
+          "email" : "evan@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "F",
+      "values": [
+        {
+          "name" : "Flavio",
+          "email" : "flavio@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Freddie",
+          "email" : "fraddie@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "G",
+      "values": [
+        {
+          "name" : "George",
+          "email" : "george@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "H",
+      "values": [
+        {
+          "name" : "Harlan",
+          "email" : "harlan@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Hayden",
+          "email" : "hayden@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Houstan",
+          "email" : "houstan@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Hunter",
+          "email" : "hunter@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Huxley",
+          "email" : "huxley@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "I",
+      "values": [
+        
+      ]
+    },
+	{
+      "key": "J",
+      "values": [
+        {
+          "name" : "Jacob",
+          "email" : "jacob@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Jairo",
+          "email" : "jairo@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Jake",
+          "email" : "jake@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Jimmy",
+          "email" : "jimmy@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Jhon",
+          "email" : "jhon@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Jude",
+          "email" : "jude@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "K",
+      "values": [
+        {
+          "name" : "Kairo",
+          "email" : "kairo@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Kalvin",
+          "email" : "kalvin@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "L",
+      "values": [
+        {
+          "name" : "Lawson",
+          "email" : "lawson@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Lloyd",
+          "email" : "llyod@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Lucius",
+          "email" : "lucius@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Lyric",
+          "email" : "lyric@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "M",
+      "values": [
+		{
+          "name" : "Maddox",
+          "email" : "maddox@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "N",
+      "values": [
+        {
+          "name" : "Nathan",
+          "email" : "nathan@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Neil",
+          "email" : "neil@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Nyjah",
+          "email" : "nyjah@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "O",
+      "values": [
+        {
+          "name" : "Oliver",
+          "email" : "oliver@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Omari",
+          "email" : "omari@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Oziel",
+          "email" : "oziel@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Ozzy",
+          "email" : "ozzy@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "P",
+      "values": [
+        {
+          "name" : "Pablo",
+          "email" : "pablo@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Patrick",
+          "email" : "patrick@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "Q",
+      "values": [
+        {
+          "name" : "Quinton",
+          "email" : "quinton@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "R",
+      "values": [
+        {
+          "name" : "Raiden",
+          "email" : "raiden@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Raymond",
+          "email" : "raymond@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Renzo",
+          "email" : "renzo@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Richard",
+          "email" : "richard@gmail.com",
+          "status" : 0
+        },
+		{
+          "name" : "Robbie",
+          "email" : "robbie@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "S",
+      "values": [
+        {
+          "name" : "Salvatore",
+          "email" : "salvatore@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "T",
+      "values": [
+        {
+          "name" : "Taylor",
+          "email" : "taylor@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Tiago",
+          "email" : "tiago@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Tyson",
+          "email" : "tyson@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "U",
+      "values": [
+        
+      ]
+    },
+	{
+      "key": "V",
+      "values": [
+        {
+          "name" : "Vance",
+          "email" : "vance@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Vincent",
+          "email" : "vincent@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Vladimir",
+          "email" : "emilio@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "W",
+      "values": [
+        {
+          "name" : "Watson",
+          "email" : "watson@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Westley",
+          "email" : "westley@gmail.com",
+          "status" : 0
+        },
+        {
+          "name" : "Wilson",
+          "email" : "wilson@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "X",
+      "values": [
+        {
+          "name" : "Xander",
+          "email" : "xander@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "Y",
+      "values": [
+        {
+          "name" : "Yohan",
+          "email" : "yohan@gmail.com",
+          "status" : 0
+        }
+      ]
+    },
+	{
+      "key": "Z",
+      "values": [
+       
+      ]
+    }
+ ]
+}

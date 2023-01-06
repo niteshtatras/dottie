@@ -1,0 +1,72 @@
+[
+  {
+    "productid": 1,
+    "price": 19.95,
+    "textcolor": "#ffffff",
+    "gradient": {
+      "angle": -15,
+      "stops": [
+        {
+          "color": "#a38dd2",
+          "stop": 20
+        },
+        {
+          "color": "#f6bfe9",
+          "stop": 100
+        }
+      ]
+    },
+    "tiledimage": "/images/subscription/pro-tile.png",
+    "txt": {
+      "en": {
+        "productname": "Plus",
+        "period": "mo",
+        "features": [
+          "Safety Inspections",
+          "Unlimited Inspections",
+          "Up to 1 Year of History"
+        ],
+        "epilogue": "Flexible, cancel anytime. Renews monthly."
+      }
+    },
+    "codes": {
+      "Stripe": "price_1KRN79INpko9mUKiBOU4NPUR",
+      "Apple": "1609304285"
+    }
+  },
+  {
+    "productid": 2,
+    "price": 49.95,
+    "textcolor": "#ffffff",
+    "gradient": {
+      "angle": -15,
+      "stops": [
+        {
+          "color": "#9579dd",
+          "stop": 20
+        },
+        {
+          "color": "#6974dc",
+          "stop": 100
+        }
+      ]
+    },
+    "tiledimage": "/images/subscription/max-tile.png",
+    "txt": {
+      "en": {
+        "productname": "Max",
+        "period": "mo",
+        "features": [
+          "Safety Inspections",
+          "Unlimited Inspections",
+          "Up to 1 Year of History"
+        ],
+        "epilogue": "Flexible, cancel anytime. Renews monthly."
+      }
+    },
+    "codes": {
+      "Stripe": "price_1KRN8PINpko9mUKifSsff42t",
+      "Apple": "1609304764"
+    }
+  }
+]

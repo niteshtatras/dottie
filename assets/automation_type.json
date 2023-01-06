@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "type": "Pentair",
+      "id": 155,
+      "subList":[
+        {
+          "id": 156,
+          "subType" : "IntelliTouch"
+        },
+        {
+          "id": 157,
+          "subType" : "Easytouch"
+        },
+        {
+          "id": 158,
+          "subType" : "Easytouch lite"
+        },
+        {
+          "id": 159,
+          "subType" : "Intellicenter"
+        },
+        {
+          "id": 160,
+          "subType" : "Intelliconnect"
+        }
+      ]
+    },
+    {
+      "type": "Jandy",
+      "id": 161,
+      "subList":[
+        {
+          "id": 162,
+          "subType" : "Aqualink RS"
+        },
+        {
+          "id": 163,
+          "subType" : "Iaqualink RS"
+        }
+      ]
+    },
+    {
+      "type": "Hayward",
+      "id": 164,
+      "subList":[
+        {
+          "id": 165,
+          "subType" : "Ominlogic"
+        },
+        {
+          "id": 166,
+          "subType" : "Prologic"
+        }
+      ]
+    },
+    {
+      "type": "Other",
+      "id": 224,
+      "subList":[
+        {
+          "id": 225,
+          "subType" : "Other"
+        }
+      ]
+    }
+  ]
+}

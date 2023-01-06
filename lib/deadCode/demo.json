@@ -1,0 +1,96 @@
+{
+  "questions":[
+    {
+      "type": "vessel",
+      "name": "Pool",
+      "id": "12",
+      "simplelistid": "2",
+      "questions": [
+        {
+          "id": "23",
+          "question": "Take the photo of pool",
+          "status": 0
+        },
+        {
+          "id": "24",
+          "question": "How often pool used in week days",
+          "status": 2
+        },
+        {
+          "id": "25",
+          "question": "Overall condition",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "type": "vessel",
+      "name": "Spa",
+      "id": "13",
+      "simplelistid": "3",
+      "questions": [
+        {
+          "id": "23",
+          "question": "Take the photo of spa",
+          "status": 0
+        },
+        {
+          "id": "24",
+          "question": "How often spa used in week days",
+          "status": 2
+        },
+        {
+          "id": "25",
+          "question": "Overall condition",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "type": "bodyofwater",
+      "name": "Body Of Water",
+      "id": "14",
+      "simplelistid": "4",
+      "questions": [
+        {
+          "id": "23",
+          "question": "Take the photo",
+          "status": 0
+        },
+        {
+          "id": "24",
+          "question": "How often body of water used in week days",
+          "status": 2
+        },
+        {
+          "id": "25",
+          "question": "Overall condition",
+          "status": 1
+        }
+      ]
+    },
+    {
+      "type": "equipment",
+      "name": "Water Heater 1",
+      "id": "15",
+      "simplelistid": "5",
+      "questions": [
+        {
+          "id": "23",
+          "question": "Take the photo of water heater 1",
+          "status": 0
+        },
+        {
+          "id": "24",
+          "question": "Safety concerns",
+          "status": 2
+        },
+        {
+          "id": "25",
+          "question": "Comment",
+          "status": 1
+        }
+      ]
+    }
+  ]
+}

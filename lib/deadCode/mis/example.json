@@ -1,0 +1,1933 @@
+{
+  "inspectiondefid": 184,
+  "blockscope": null,
+  "blocktype": "inspection",
+  "questionid": 225,
+  "questiontype": "label",
+  "answerscope": null,
+  "blockimage": {
+    "imageid": 3648,
+    "path": "/media/inspectiondef/184/water.jpg",
+    "type": "jpg",
+    "width": 686,
+    "height": 457,
+    "size": 104103
+  },
+  "blocksvgicon": "",
+  "lft": 357,
+  "rgt": 520,
+  "txt": {
+    "en": {
+      "title": "Swimming Pool Builder Inspection 2021-07-06",
+      "helpertext": null,
+      "reporttag": null,
+      "section": null
+    },
+    "es": {
+      "title": "Inspección de Piscinas",
+      "helpertext": null,
+      "reporttag": null,
+      "section": null
+    }
+  },
+  "children": [
+    {
+      "inspectiondefid": 185,
+      "blockscope": null,
+      "blocktype": "inspection setup",
+      "questionid": 226,
+      "questiontype": "label",
+      "answerscope": null,
+      "blockimage": null,
+      "blocksvgicon": null,
+      "lft": 358,
+      "rgt": 363,
+      "txt": {
+        "en": {
+          "title": "Inspection Setup",
+          "helpertext": null,
+          "reporttag": null,
+          "section": null
+        }
+      },
+      "children": [
+        {
+          "inspectiondefid": 186,
+          "blockscope": null,
+          "blocktype": "customer",
+          "questionid": 227,
+          "questiontype": "label",
+          "answerscope": {
+            "simplelist": 355
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 359,
+          "rgt": 360,
+          "txt": {
+            "en": {
+              "title": "Let’s begin by adding a customer",
+              "helpertext": "How would you like to add your customer?",
+              "reporttag": null,
+              "section": "Customer Info."
+            }
+          },
+          "children": []
+        },
+        {
+          "inspectiondefid": 187,
+          "blockscope": null,
+          "blocktype": "service address",
+          "questionid": 228,
+          "questiontype": "label",
+          "answerscope": {
+            "simplelist": 359
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 361,
+          "rgt": 362,
+          "txt": {
+            "en": {
+              "title": "Location, location, location",
+              "helpertext": "Select an existing customer service address or create a new one",
+              "reporttag": null,
+              "section": "Service Location"
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "inspectiondefid": 188,
+      "blockscope": null,
+      "blocktype": "section",
+      "questionid": 229,
+      "questiontype": "label",
+      "answerscope": null,
+      "blockimage": null,
+      "blocksvgicon": "",
+      "lft": 364,
+      "rgt": 375,
+      "txt": {
+        "en": {
+          "title": "Pool Area Safety",
+          "helpertext": "5 Inspection Points",
+          "reporttag": null,
+          "section": null
+        }
+      },
+      "children": [
+        {
+          "inspectiondefid": 189,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 230,
+          "questiontype": "select one",
+          "answerscope": {
+            "simplelist": 175,
+            "photoif": [
+              177
+            ]
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 365,
+          "rgt": 366,
+          "txt": {
+            "en": {
+              "title": "Inspect for an enclosure around the pool and spa area",
+              "helpertext": null,
+              "reporttag": null,
+              "section": "Enclosure"
+            }
+          },
+          "children": []
+        },
+        {
+          "inspectiondefid": 191,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 232,
+          "questiontype": "select multiple",
+          "answerscope": {
+            "simplelist": 199,
+            "photoif": [
+              201,
+              202
+            ],
+            "disableif": [
+              203
+            ]
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 367,
+          "rgt": 368,
+          "txt": {
+            "en": {
+              "title": "Inspect the gate(s) around the pool area to establish they are working, have self closing mechanism and latches",
+              "helpertext": null,
+              "reporttag": null,
+              "section": "Gate"
+            }
+          },
+          "children": []
+        },
+        {
+          "inspectiondefid": 192,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 233,
+          "questiontype": "select one",
+          "answerscope": {
+            "simplelist": 204,
+            "photoif": [
+              205,
+              206
+            ]
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 369,
+          "rgt": 370,
+          "txt": {
+            "en": {
+              "title": "Does the homeowner has a working pool alarm?",
+              "helpertext": null,
+              "reporttag": null,
+              "section": "Alarm"
+            }
+          },
+          "children": []
+        },
+        {
+          "inspectiondefid": 193,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 234,
+          "questiontype": "select one",
+          "answerscope": {
+            "simplelist": 208,
+            "photoif": [
+              209,
+              210
+            ]
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 371,
+          "rgt": 372,
+          "txt": {
+            "en": {
+              "title": "Determine if the homeowner has a working pet door with access to the pool area",
+              "helpertext": null,
+              "reporttag": null,
+              "section": "Pet Door"
+            }
+          },
+          "children": []
+        },
+        {
+          "inspectiondefid": 194,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 235,
+          "questiontype": "boolean",
+          "answerscope": {},
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 373,
+          "rgt": 374,
+          "txt": {
+            "en": {
+              "title": "Are you or someone in your household certified in CPR?",
+              "helpertext": null,
+              "reporttag": null,
+              "section": "CPR"
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "inspectiondefid": 195,
+      "blockscope": null,
+      "blocktype": "section",
+      "questionid": 236,
+      "questiontype": "label",
+      "answerscope": {},
+      "blockimage": null,
+      "blocksvgicon": "",
+      "lft": 376,
+      "rgt": 381,
+      "txt": {
+        "en": {
+          "title": "Maintenance",
+          "helpertext": "3 Inspection Points",
+          "reporttag": null,
+          "section": null
+        }
+      },
+      "children": [
+        {
+          "inspectiondefid": 190,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 231,
+          "questiontype": "select one",
+          "answerscope": {
+            "simplelist": 187
+          },
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 377,
+          "rgt": 378,
+          "txt": {
+            "en": {
+              "title": "Who provides the maintenance?",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": []
+        },
+        {
+          "inspectiondefid": 290,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 331,
+          "questiontype": "boolean",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 379,
+          "rgt": 380,
+          "txt": {
+            "en": {
+              "title": "Would you like to include a proposal for your own maintenance services?",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "inspectiondefid": 291,
+      "blockscope": null,
+      "blocktype": "vessel inventory",
+      "questionid": 332,
+      "questiontype": "label",
+      "answerscope": null,
+      "blockimage": null,
+      "blocksvgicon": null,
+      "lft": 382,
+      "rgt": 465,
+      "txt": {
+        "en": {
+          "title": "Which vessels will you be inspecting?",
+          "helpertext": null,
+          "reporttag": null,
+          "section": null
+        }
+      },
+      "children": [
+        {
+          "inspectiondefid": 292,
+          "blockscope": null,
+          "blocktype": "bodyofwater",
+          "questionid": 333,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 383,
+          "rgt": 464,
+          "txt": {
+            "en": {
+              "title": "Assign each vessel to a body of water",
+              "helpertext": " We went ahead and assigned some for you, but feel free to make changes.",
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 293,
+              "blockscope": null,
+              "blocktype": "vessel",
+              "questionid": 334,
+              "questiontype": "label",
+              "answerscope": null,
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 384,
+              "rgt": 451,
+              "txt": {
+                "en": {
+                  "title": "${vesselname}",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": null
+                }
+              },
+              "children": [
+                {
+                  "inspectiondefid": 461,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 502,
+                  "questiontype": "photo",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 385,
+                  "rgt": 386,
+                  "txt": {
+                    "en": {
+                      "title": "Let's take a picture of the ${vesselname}",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": " ${vesselname} Photo"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 463,
+                  "blockscope": {
+                    "vesseltype": [
+                      2,
+                      3
+                    ]
+                  },
+                  "blocktype": "group",
+                  "questionid": 504,
+                  "questiontype": "label",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 387,
+                  "rgt": 404,
+                  "txt": {
+                    "en": {
+                      "title": "[Pool and Spa Properties]",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": [
+                    {
+                      "inspectiondefid": 464,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 505,
+                      "questiontype": "quantity",
+                      "answerscope": {
+                        "max": 7
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 388,
+                      "rgt": 389,
+                      "txt": {
+                        "en": {
+                          "title": "Select the number of usage days per week",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": "${vesselname} Usage"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 465,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 506,
+                      "questiontype": "dimensions",
+                      "answerscope": {
+                        "simplelist": 370
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 390,
+                      "rgt": 397,
+                      "txt": {
+                        "en": {
+                          "title": "Enter the ${vesselname} dimensions",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": "${vesselname} Measurements"
+                        }
+                      },
+                      "children": [
+                        {
+                          "inspectiondefid": 466,
+                          "blockscope": null,
+                          "blocktype": "question",
+                          "questionid": 507,
+                          "questiontype": "quantity",
+                          "answerscope": {
+                            "simplelistitem": 363
+                          },
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 391,
+                          "rgt": 392,
+                          "txt": {
+                            "en": {
+                              "title": "What is the average width of the ${vesselname}",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "inspectiondefid": 468,
+                          "blockscope": null,
+                          "blocktype": "question",
+                          "questionid": 509,
+                          "questiontype": "quantity",
+                          "answerscope": {
+                            "min": 0
+                          },
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 393,
+                          "rgt": 394,
+                          "txt": {
+                            "en": {
+                              "title": "What is the average length of the ${vesselname}?",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "inspectiondefid": 467,
+                          "blockscope": null,
+                          "blocktype": "question",
+                          "questionid": 508,
+                          "questiontype": "quantity",
+                          "answerscope": {
+                            "simplelistitem": 363,
+                            "min": 0
+                          },
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 395,
+                          "rgt": 396,
+                          "txt": {
+                            "en": {
+                              "title": "What is the average depth of the ${vesselname}?",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "inspectiondefid": 462,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 503,
+                      "questiontype": "select one",
+                      "answerscope": {
+                        "simplelist": 11
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 398,
+                      "rgt": 399,
+                      "txt": {
+                        "en": {
+                          "title": "Select the ${vesselname} shape",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": "${vesselname} shap"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 470,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 511,
+                      "questiontype": "select one",
+                      "answerscope": {
+                        "simplelist": 17
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 400,
+                      "rgt": 401,
+                      "txt": {
+                        "en": {
+                          "title": "What is the construction method used to build this ${vesselname}",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": "${vesselname} Constructio"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 471,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 512,
+                      "questiontype": "select one",
+                      "answerscope": {
+                        "simplelist": 32
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 402,
+                      "rgt": 403,
+                      "txt": {
+                        "en": {
+                          "title": "What material is being used for the waterline?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": "${vesselname} Waterline"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "inspectiondefid": 295,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 336,
+                  "questiontype": "select one",
+                  "answerscope": {
+                    "simplelist": 23
+                  },
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 405,
+                  "rgt": 406,
+                  "txt": {
+                    "en": {
+                      "title": "What is the overall condition of the ${vesselname}",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 296,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 337,
+                  "questiontype": "select multiple",
+                  "answerscope": {
+                    "simplelist": 142
+                  },
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 407,
+                  "rgt": 408,
+                  "txt": {
+                    "en": {
+                      "title": "Are there any issues with the ${vesselname}",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 297,
+                  "blockscope": {
+                    "vesseltype": [
+                      2,
+                      3
+                    ]
+                  },
+                  "blocktype": "group",
+                  "questionid": 338,
+                  "questiontype": "label",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 409,
+                  "rgt": 448,
+                  "txt": {
+                    "en": {
+                      "title": "[Pool and Spa Safety]",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": [
+                    {
+                      "inspectiondefid": 303,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 344,
+                      "questiontype": "select multiple",
+                      "answerscope": {
+                        "simplelist": 52
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 410,
+                      "rgt": 411,
+                      "txt": {
+                        "en": {
+                          "title": "Are there any hazards that someone might trip on or near the ${vesselname} area?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 304,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 345,
+                      "questiontype": "select multiple",
+                      "answerscope": {
+                        "simplelist": 60
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 412,
+                      "rgt": 413,
+                      "txt": {
+                        "en": {
+                          "title": "Are there any hazards that are potentially creating a shock hazard?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 307,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 348,
+                      "questiontype": "select multiple",
+                      "answerscope": {
+                        "simplelist": 66
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 414,
+                      "rgt": 415,
+                      "txt": {
+                        "en": {
+                          "title": "Are there any hazards that might entrap someone in the water?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 309,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 350,
+                      "questiontype": "select multiple",
+                      "answerscope": {
+                        "simplelist": 70
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 416,
+                      "rgt": 417,
+                      "txt": {
+                        "en": {
+                          "title": "Are there any landscape elements that might impede getting into or out of the water?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 310,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 351,
+                      "questiontype": "select multiple",
+                      "answerscope": {
+                        "simplelist": 151
+                      },
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 418,
+                      "rgt": 419,
+                      "txt": {
+                        "en": {
+                          "title": "Did you find any slip hazards",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 311,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 352,
+                      "questiontype": "boolean",
+                      "answerscope": null,
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 420,
+                      "rgt": 421,
+                      "txt": {
+                        "en": {
+                          "title": "Does the ${vesselname} appear to be leaking?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 313,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 354,
+                      "questiontype": "boolean",
+                      "answerscope": null,
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 422,
+                      "rgt": 423,
+                      "txt": {
+                        "en": {
+                          "title": "Is there a handrail into the ${vesselna}",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 314,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 355,
+                      "questiontype": "boolean",
+                      "answerscope": null,
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 424,
+                      "rgt": 425,
+                      "txt": {
+                        "en": {
+                          "title": "Is there an area that should have a safety railing that is not present?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 316,
+                      "blockscope": null,
+                      "blocktype": "question",
+                      "questionid": 357,
+                      "questiontype": "boolean",
+                      "answerscope": null,
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 426,
+                      "rgt": 427,
+                      "txt": {
+                        "en": {
+                          "title": "Is there any tile or rock missing or loose?",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "inspectiondefid": 301,
+                      "blockscope": null,
+                      "blocktype": "equipment inventory",
+                      "questionid": 342,
+                      "questiontype": "label",
+                      "answerscope": null,
+                      "blockimage": null,
+                      "blocksvgicon": null,
+                      "lft": 428,
+                      "rgt": 447,
+                      "txt": {
+                        "en": {
+                          "title": "Which equipment (if any) belongs to this single",
+                          "helpertext": null,
+                          "reporttag": null,
+                          "section": null
+                        }
+                      },
+                      "children": [
+                        {
+                          "inspectiondefid": 423,
+                          "blockscope": {
+                            "equipmenttype": [
+                              28,
+                              29,
+                              30,
+                              31,
+                              150
+                            ]
+                          },
+                          "blocktype": "group",
+                          "questionid": 464,
+                          "questiontype": "label",
+                          "answerscope": null,
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 429,
+                          "rgt": 432,
+                          "txt": {
+                            "en": {
+                              "title": "[Lights]",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": [
+                            {
+                              "inspectiondefid": 431,
+                              "blockscope": null,
+                              "blocktype": "question",
+                              "questionid": 472,
+                              "questiontype": "select multiple",
+                              "answerscope": {
+                                "simplelist": 45
+                              },
+                              "blockimage": null,
+                              "blocksvgicon": null,
+                              "lft": 430,
+                              "rgt": 431,
+                              "txt": {
+                                "en": {
+                                  "title": "Are there any issue(s) with any of the lights?",
+                                  "helpertext": null,
+                                  "reporttag": null,
+                                  "section": "Lights Safe"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "inspectiondefid": 422,
+                          "blockscope": {
+                            "equipmenttype": [
+                              268
+                            ]
+                          },
+                          "blocktype": "group",
+                          "questionid": 463,
+                          "questiontype": "label",
+                          "answerscope": null,
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 433,
+                          "rgt": 436,
+                          "txt": {
+                            "en": {
+                              "title": "[Cover]",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": [
+                            {
+                              "inspectiondefid": 429,
+                              "blockscope": null,
+                              "blocktype": "question",
+                              "questionid": 470,
+                              "questiontype": "select multiple",
+                              "answerscope": {
+                                "simplelist": 261
+                              },
+                              "blockimage": null,
+                              "blocksvgicon": null,
+                              "lft": 434,
+                              "rgt": 435,
+                              "txt": {
+                                "en": {
+                                  "title": "Are there any issue(s) with the ${equip",
+                                  "helpertext": null,
+                                  "reporttag": null,
+                                  "section": "${equipmentname} Safety"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "inspectiondefid": 421,
+                          "blockscope": {
+                            "equipmenttype": [
+                              350
+                            ]
+                          },
+                          "blocktype": "group",
+                          "questionid": 462,
+                          "questiontype": "label",
+                          "answerscope": null,
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 437,
+                          "rgt": 438,
+                          "txt": {
+                            "en": {
+                              "title": " [Automatic Pool Cleaner]",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "inspectiondefid": 420,
+                          "blockscope": {
+                            "equipmenttype": [
+                              306
+                            ]
+                          },
+                          "blocktype": "group",
+                          "questionid": 461,
+                          "questiontype": "label",
+                          "answerscope": null,
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 439,
+                          "rgt": 442,
+                          "txt": {
+                            "en": {
+                              "title": "[Fill Valve]",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": [
+                            {
+                              "inspectiondefid": 430,
+                              "blockscope": null,
+                              "blocktype": "question",
+                              "questionid": 471,
+                              "questiontype": "select multiple",
+                              "answerscope": {
+                                "simplelist": 311
+                              },
+                              "blockimage": null,
+                              "blocksvgicon": null,
+                              "lft": 440,
+                              "rgt": 441,
+                              "txt": {
+                                "en": {
+                                  "title": "Are there any issue(s) with ${equipmentname}?",
+                                  "helpertext": null,
+                                  "reporttag": null,
+                                  "section": "${equipmentname} Safe"
+                                }
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "inspectiondefid": 419,
+                          "blockscope": {
+                            "equipmenttype": [
+                              349
+                            ]
+                          },
+                          "blocktype": "group",
+                          "questionid": 460,
+                          "questiontype": "label",
+                          "answerscope": null,
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 443,
+                          "rgt": 444,
+                          "txt": {
+                            "en": {
+                              "title": "[Skimmer]",
+                              "helpertext": null,
+                              "reporttag": null,
+                              "section": null
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "inspectiondefid": 425,
+                          "blockscope": null,
+                          "blocktype": "question",
+                          "questionid": 466,
+                          "questiontype": "text",
+                          "answerscope": null,
+                          "blockimage": null,
+                          "blocksvgicon": null,
+                          "lft": 445,
+                          "rgt": 446,
+                          "txt": {
+                            "en": {
+                              "title": "Add Additional Comments",
+                              "helpertext": "Your general comments for the ${equipmentname}",
+                              "reporttag": null,
+                              "section": "${equipmentname} Comments"
+                            }
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "inspectiondefid": 300,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 341,
+                  "questiontype": "text",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 449,
+                  "rgt": 450,
+                  "txt": {
+                    "en": {
+                      "title": "Add additional comments",
+                      "helpertext": "Your general comments for the ${vesselname}",
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "inspectiondefid": 317,
+              "blockscope": null,
+              "blocktype": "section",
+              "questionid": 358,
+              "questiontype": "label",
+              "answerscope": null,
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 452,
+              "rgt": 463,
+              "txt": {
+                "en": {
+                  "title": "Water Condition",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": null
+                }
+              },
+              "children": [
+                {
+                  "inspectiondefid": 319,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 360,
+                  "questiontype": "photo",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 453,
+                  "rgt": 454,
+                  "txt": {
+                    "en": {
+                      "title": "Let's take a picture of the test strips",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 321,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 362,
+                  "questiontype": "select one",
+                  "answerscope": {
+                    "simplelist": 179
+                  },
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 455,
+                  "rgt": 456,
+                  "txt": {
+                    "en": {
+                      "title": "What is the clarity of the water?",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 323,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 364,
+                  "questiontype": "select one",
+                  "answerscope": {
+                    "simplelist": 183
+                  },
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 457,
+                  "rgt": 458,
+                  "txt": {
+                    "en": {
+                      "title": "Based on your evaluation of the test strip, how is the chemical balance in the water?",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 326,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 367,
+                  "questiontype": "boolean",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 459,
+                  "rgt": 460,
+                  "txt": {
+                    "en": {
+                      "title": "Is there noticeable scaling on the waterline?",
+                      "helpertext": null,
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "inspectiondefid": 327,
+                  "blockscope": null,
+                  "blocktype": "question",
+                  "questionid": 368,
+                  "questiontype": "text",
+                  "answerscope": null,
+                  "blockimage": null,
+                  "blocksvgicon": null,
+                  "lft": 461,
+                  "rgt": 462,
+                  "txt": {
+                    "en": {
+                      "title": "Add additional comments",
+                      "helpertext": "Your general comments for the water condition",
+                      "reporttag": null,
+                      "section": null
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "inspectiondefid": 432,
+      "blockscope": null,
+      "blocktype": "equipment inventory",
+      "questionid": 473,
+      "questiontype": "label",
+      "answerscope": null,
+      "blockimage": null,
+      "blocksvgicon": null,
+      "lft": 466,
+      "rgt": 507,
+      "txt": {
+        "en": {
+          "title": "Which equipment will you be inspecting?",
+          "helpertext": null,
+          "reporttag": null,
+          "section": "Equipment Inventory"
+        }
+      },
+      "children": [
+        {
+          "inspectiondefid": 433,
+          "blockscope": {
+            "equipmenttype": [
+              37
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 474,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 467,
+          "rgt": 476,
+          "txt": {
+            "en": {
+              "title": "[Pump]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 458,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 499,
+              "questiontype": "select one",
+              "answerscope": {
+                "simplelist": 167
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 468,
+              "rgt": 469,
+              "txt": {
+                "en": {
+                  "title": "${equipmentname} type",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentnam}"
+                },
+                "children": []
+              }
+            },
+            {
+              "inspectiondefid": 457,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 498,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 171
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 470,
+              "rgt": 471,
+              "txt": {
+                "en": {
+                  "title": "What are the functions of ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} fun"
+                }
+              },
+              "children": []
+            },
+            {
+              "inspectiondefid": 455,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 496,
+              "questiontype": "select vessels",
+              "answerscope": null,
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 472,
+              "rgt": 473,
+              "txt": {
+                "en": {
+                  "title": "Which vessels does ${equipmentname} service?",
+                  "helpertext": "Tap any",
+                  "reporttag": null,
+                  "section": null
+                },
+                "es": {
+                  "title": null,
+                  "helpertext": "Pump Assign",
+                  "reporttag": null,
+                  "section": null
+                }
+              },
+              "children": []
+            },
+            {
+              "inspectiondefid": 442,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 483,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 78
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 474,
+              "rgt": 475,
+              "txt": {
+                "en": {
+                  "title": "Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": " ${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 434,
+          "blockscope": {
+            "equipmenttype": [
+              38
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 475,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 477,
+          "rgt": 480,
+          "txt": {
+            "en": {
+              "title": "[Filter]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 443,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 484,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 85
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 478,
+              "rgt": 479,
+              "txt": {
+                "en": {
+                  "title": "Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 435,
+          "blockscope": {
+            "equipmenttype": [
+              42
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 476,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 481,
+          "rgt": 484,
+          "txt": {
+            "en": {
+              "title": "[Valve]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 444,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 485,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 130
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 482,
+              "rgt": 483,
+              "txt": {
+                "en": {
+                  "title": "Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 436,
+          "blockscope": {
+            "equipmenttype": [
+              39
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 477,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 485,
+          "rgt": 488,
+          "txt": {
+            "en": {
+              "title": "[Heater]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 445,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 486,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 92
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 486,
+              "rgt": 487,
+              "txt": {
+                "en": {
+                  "title": "Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 437,
+          "blockscope": {
+            "equipmenttype": [
+              249
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 478,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 489,
+          "rgt": 492,
+          "txt": {
+            "en": {
+              "title": "[Heat Pump]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 446,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 487,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 255
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 490,
+              "rgt": 491,
+              "txt": {
+                "en": {
+                  "title": " Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 438,
+          "blockscope": {
+            "equipmenttype": [
+              40
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 479,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 493,
+          "rgt": 496,
+          "txt": {
+            "en": {
+              "title": "[Automation System]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 447,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 488,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 100
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 494,
+              "rgt": 495,
+              "txt": {
+                "en": {
+                  "title": "Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 439,
+          "blockscope": {
+            "equipmenttype": [
+              41
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 480,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 497,
+          "rgt": 500,
+          "txt": {
+            "en": {
+              "title": "[Sanitation System]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 448,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 489,
+              "questiontype": "select multiple",
+              "answerscope": {
+                "simplelist": 108
+              },
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 498,
+              "rgt": 499,
+              "txt": {
+                "en": {
+                  "title": "Are there any issue(s) with ${equipmentname}?",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "${equipmentname} Safety"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 441,
+          "blockscope": {
+            "equipmenttype": [
+              250
+            ]
+          },
+          "blocktype": "group",
+          "questionid": 482,
+          "questiontype": "label",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 501,
+          "rgt": 504,
+          "txt": {
+            "en": {
+              "title": "[Gas Meter]",
+              "helpertext": null,
+              "reporttag": null,
+              "section": null
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 453,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 494,
+              "questiontype": "boolean",
+              "answerscope": null,
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 502,
+              "rgt": 503,
+              "txt": {
+                "en": {
+                  "title": "Is the ${equipmentname} a sufficient size to serve the house and pool heater?",
+                  "helpertext": "Take a picture of the meter plate",
+                  "reporttag": null,
+                  "section": "${equipmentname} Size"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 456,
+          "blockscope": null,
+          "blocktype": "question",
+          "questionid": 497,
+          "questiontype": "text",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 505,
+          "rgt": 506,
+          "txt": {
+            "en": {
+              "title": "Add additional comments",
+              "helpertext": "Your general comments for the ${equipmentname}",
+              "reporttag": null,
+              "section": "${equipmentname} comments"
+            }
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "inspectiondefid": 459,
+      "blockscope": null,
+      "blocktype": "section",
+      "questionid": 500,
+      "questiontype": "label",
+      "answerscope": null,
+      "blockimage": null,
+      "blocksvgicon": null,
+      "lft": 508,
+      "rgt": 517,
+      "txt": {
+        "en": {
+          "title": "Electrical",
+          "helpertext": null,
+          "reporttag": null,
+          "section": null
+        }
+      },
+      "children": [
+        {
+          "inspectiondefid": 449,
+          "blockscope": {
+            "childrenif": [
+              317
+            ]
+          },
+          "blocktype": "question",
+          "questionid": 490,
+          "questiontype": "boolean",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 509,
+          "rgt": 512,
+          "txt": {
+            "en": {
+              "title": "Is allapplicable equipment interconnected within the bonding grid?",
+              "helpertext": "NEC Section 680 requires all metal components of the pool equipment to be bonded together",
+              "reporttag": null,
+              "section": "Bonding"
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 450,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 491,
+              "questiontype": "select equipment",
+              "answerscope": null,
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 510,
+              "rgt": 511,
+              "txt": {
+                "en": {
+                  "title": "Select all equipment that is not adequately bonded",
+                  "helpertext": "Take a picture of the missing or inadequate bonding connections",
+                  "reporttag": null,
+                  "section": "Bonding"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "inspectiondefid": 451,
+          "blockscope": {
+            "childrenif": [
+              317
+            ]
+          },
+          "blocktype": "question",
+          "questionid": 492,
+          "questiontype": "boolean",
+          "answerscope": null,
+          "blockimage": null,
+          "blocksvgicon": null,
+          "lft": 513,
+          "rgt": 516,
+          "txt": {
+            "en": {
+              "title": " Is all applicable equipment GFCI protected?",
+              "helpertext": null,
+              "reporttag": null,
+              "section": "GFCI"
+            }
+          },
+          "children": [
+            {
+              "inspectiondefid": 452,
+              "blockscope": null,
+              "blocktype": "question",
+              "questionid": 493,
+              "questiontype": "select equipment",
+              "answerscope": null,
+              "blockimage": null,
+              "blocksvgicon": null,
+              "lft": 514,
+              "rgt": 515,
+              "txt": {
+                "en": {
+                  "title": "Select all the equipment that is not GFCI protected",
+                  "helpertext": null,
+                  "reporttag": null,
+                  "section": "G"
+                }
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "inspectiondefid": 460,
+      "blockscope": null,
+      "blocktype": "signature",
+      "questionid": 501,
+      "questiontype": "label",
+      "answerscope": null,
+      "blockimage": null,
+      "blocksvgicon": null,
+      "lft": 518,
+      "rgt": 519,
+      "txt": {
+        "en": {
+          "title": "signature",
+          "helpertext": null,
+          "reporttag": null,
+          "section": null
+        }
+      },
+      "children": []
+    }
+  ]
+}

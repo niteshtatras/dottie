@@ -1,0 +1,1446 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Pool",
+      "image": "assets/ic_pool.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 0,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 2,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Spa",
+      "image": "assets/ic_spa.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Let’s take a picture of the spa"
+            },
+            {
+              "status": 2,
+              "question": "How often is the spa used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 2,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 1,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Water feature",
+      "image": "assets/ic_fountain.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 0,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 1,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 2,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Water pump",
+      "image": "assets/pool/ic_fan.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 0,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 1,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Filter",
+      "image": "assets/ic_filter.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 1,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 2,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Heater",
+      "image": "assets/ic_heater.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 0,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 1,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 2,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Automation system",
+      "image": "assets/ic_automation.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 0,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Sanitation system",
+      "image": "assets/ic_sanitation.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 1,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 1,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 0,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 1,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Valves",
+      "image": "assets/pool/ic_gauge.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 1,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Bonding",
+      "image": "assets/ic_bonding.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "GFCI",
+      "image": "assets/pool/ic_socket.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 1,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Safety",
+      "image": "assets/pool/ic_warning.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 1,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 2,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 1,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 1,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 1,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Maintenance recommendations",
+      "image": "assets/pool/ic_wrench.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 1,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 1,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 1,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 1,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 0,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 0,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 1,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 2,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "General proposal",
+      "image": "assets/ic_proposal.png",
+      "categories": [
+        {
+          "status": 0,
+          "categoryName": "General",
+          "questions": [
+            {
+              "status": 1,
+              "question": "Let’s take a picture of the pool"
+            },
+            {
+              "status": 2,
+              "question": "How often is the pool used during the week?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Water Condition",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What is the condition of the water in the pool?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Light",
+          "questions": [
+            {
+              "status": 0,
+              "question": "What type of lights does the pool have?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Measurement",
+          "questions": [
+            {
+              "status": 2,
+              "question": "What are the measurements for the pool?"
+            },
+            {
+              "status": 0,
+              "question": "I’ve calculated the gallons in the pool just for you!"
+            },
+            {
+              "status": 0,
+              "question": "What is the shape of the pool?"
+            },
+            {
+              "status": 2,
+              "question": "What is the construction of the spa?"
+            },
+            {
+              "status": 0,
+              "question": "What material is being used for the waterline?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Safety Concerns",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Did you find any trip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any shock hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any entrapment hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any slip hazards?"
+            },
+            {
+              "status": 0,
+              "question": "Did you find any light hazards?"
+            }
+          ]
+        },
+        {
+          "status": 0,
+          "categoryName": "Comments",
+          "questions": [
+            {
+              "status": 2,
+              "question": "Add your comments (optional)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
